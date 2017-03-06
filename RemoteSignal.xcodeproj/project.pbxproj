@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5AA2AD41E6E019B0028362D /* CoreProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AD31E6E019B0028362D /* CoreProtocols.swift */; };
-		C5AA2AD71E6E02140028362D /* RetainedSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AD61E6E02140028362D /* RetainedSignal.swift */; };
-		C5AA2AD91E6E022D0028362D /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AD81E6E022D0028362D /* Variable.swift */; };
-		D9899DDB1DF4A093008766B5 /* RemoteSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D9899DCD1DF4A092008766B5 /* RemoteSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9899DE61DF4A372008766B5 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9899DE51DF4A372008766B5 /* Signal.swift */; };
+		C5AA2ADE1E6E0C7B0028362D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5AA2ADC1E6E0C7B0028362D /* Info.plist */; };
+		C5AA2ADF1E6E0C7B0028362D /* RemoteSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AA2ADD1E6E0C7B0028362D /* RemoteSignal.h */; };
+		C5AA2AE41E6E0C810028362D /* CoreProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AE01E6E0C810028362D /* CoreProtocols.swift */; };
+		C5AA2AE51E6E0C810028362D /* RetainedSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AE11E6E0C810028362D /* RetainedSignal.swift */; };
+		C5AA2AE61E6E0C810028362D /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AE21E6E0C810028362D /* Signal.swift */; };
+		C5AA2AE71E6E0C810028362D /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AE31E6E0C810028362D /* Variable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C5AA2AD31E6E019B0028362D /* CoreProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreProtocols.swift; sourceTree = "<group>"; };
-		C5AA2AD61E6E02140028362D /* RetainedSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetainedSignal.swift; sourceTree = "<group>"; };
-		C5AA2AD81E6E022D0028362D /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
 		C5AA2ADA1E6E08000028362D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5AA2ADC1E6E0C7B0028362D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RemoteSignal/Info.plist; sourceTree = "<group>"; };
+		C5AA2ADD1E6E0C7B0028362D /* RemoteSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteSignal.h; path = RemoteSignal/RemoteSignal.h; sourceTree = "<group>"; };
+		C5AA2AE01E6E0C810028362D /* CoreProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreProtocols.swift; path = RemoteSignal/Source/CoreProtocols.swift; sourceTree = SOURCE_ROOT; };
+		C5AA2AE11E6E0C810028362D /* RetainedSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RetainedSignal.swift; path = RemoteSignal/Source/RetainedSignal.swift; sourceTree = SOURCE_ROOT; };
+		C5AA2AE21E6E0C810028362D /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = RemoteSignal/Source/Signal.swift; sourceTree = SOURCE_ROOT; };
+		C5AA2AE31E6E0C810028362D /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Variable.swift; path = RemoteSignal/Source/Variable.swift; sourceTree = SOURCE_ROOT; };
 		D9899DCA1DF4A092008766B5 /* RemoteSignal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RemoteSignal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9899DCD1DF4A092008766B5 /* RemoteSignal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RemoteSignal.h; path = Source/RemoteSignal.h; sourceTree = "<group>"; };
-		D9899DCE1DF4A092008766B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
-		D9899DE51DF4A372008766B5 /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +40,8 @@
 		C5AA2AD51E6E01B20028362D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D9899DCD1DF4A092008766B5 /* RemoteSignal.h */,
-				D9899DCE1DF4A092008766B5 /* Info.plist */,
+				C5AA2ADD1E6E0C7B0028362D /* RemoteSignal.h */,
+				C5AA2ADC1E6E0C7B0028362D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -66,10 +67,10 @@
 		D9899DCC1DF4A092008766B5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C5AA2AD31E6E019B0028362D /* CoreProtocols.swift */,
-				D9899DE51DF4A372008766B5 /* Signal.swift */,
-				C5AA2AD61E6E02140028362D /* RetainedSignal.swift */,
-				C5AA2AD81E6E022D0028362D /* Variable.swift */,
+				C5AA2AE01E6E0C810028362D /* CoreProtocols.swift */,
+				C5AA2AE21E6E0C810028362D /* Signal.swift */,
+				C5AA2AE11E6E0C810028362D /* RetainedSignal.swift */,
+				C5AA2AE31E6E0C810028362D /* Variable.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -81,7 +82,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9899DDB1DF4A093008766B5 /* RemoteSignal.h in Headers */,
+				C5AA2ADF1E6E0C7B0028362D /* RemoteSignal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +120,7 @@
 					D9899DC91DF4A091008766B5 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 8Q693ZG5RN;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -146,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AA2ADE1E6E0C7B0028362D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AA2AD41E6E019B0028362D /* CoreProtocols.swift in Sources */,
-				D9899DE61DF4A372008766B5 /* Signal.swift in Sources */,
-				C5AA2AD71E6E02140028362D /* RetainedSignal.swift in Sources */,
-				C5AA2AD91E6E022D0028362D /* Variable.swift in Sources */,
+				C5AA2AE41E6E0C810028362D /* CoreProtocols.swift in Sources */,
+				C5AA2AE61E6E0C810028362D /* Signal.swift in Sources */,
+				C5AA2AE51E6E0C810028362D /* RetainedSignal.swift in Sources */,
+				C5AA2AE71E6E0C810028362D /* Variable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
