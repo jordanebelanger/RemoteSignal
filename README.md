@@ -6,18 +6,12 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-
 ## Requirements
 
 RemoteSignal is written in Swift 3 and supports iOS 9.0 and up.
 
 
 ## Installation
-
 
 ### CocoaPods
 
