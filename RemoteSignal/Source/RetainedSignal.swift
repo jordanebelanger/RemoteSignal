@@ -2,7 +2,7 @@
 //  RetainedSignal.swift
 //  RemoteSignal
 //
-//  Created by monaco on 3/6/17.
+//  Created by Jordane Belanger on Mar 6, 2017.
 //  Copyright © 2017 Jordane Belanger. All rights reserved.
 //
 
