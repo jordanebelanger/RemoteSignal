@@ -30,7 +30,7 @@ public struct AnySignal<T>: SignalType {
     
     /// Should subscribe to any new value change notification on this SignalType
     /// instance.
-    public func subscribe(on observer: AnyObject, callback: @escaping (T) -> Void) {
+    public func subscribe(on observer: AnyObject, callback: @escaping SignalCallback<DataType>) {
         _subscribe(observer, callback)
     }
     
@@ -102,7 +102,7 @@ fileprivate final class SignalSubscription<T> {
     weak var observer: AnyObject?
     let callback: (T) -> Void
     
-    init(observer: AnyObject, callback: @escaping (T) -> Void) {
+    init(observer: AnyObject, callback: @escaping SignalCallback<T>) {
         self.observer = observer
         self.callback = callback
     }

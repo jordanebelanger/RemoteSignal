@@ -42,14 +42,14 @@ public struct AnyRetainedSignal<T>: RetainedSignalType {
     
     /// Should subscribe to any new value change notification on this SignalType
     /// instance.
-    public func subscribe(on observer: AnyObject, callback: @escaping (T) -> Void) {
+    public func subscribe(on observer: AnyObject, callback: @escaping SignalCallback<DataType>) {
         _subscribe(observer, callback)
     }
     
     /// Should subscribe the observer to signal value event notification coming
     /// from this signal and immedietaly be notified of the latest payload fired
     /// if any.
-    public func subscribePast(on observer: AnyObject, callback: @escaping (T) -> Void) {
+    public func subscribePast(on observer: AnyObject, callback: @escaping SignalCallback<DataType>) {
         _subscribePast(observer, callback)
     }
     

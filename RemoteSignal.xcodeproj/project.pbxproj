@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5AA2ADE1E6E0C7B0028362D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5AA2ADC1E6E0C7B0028362D /* Info.plist */; };
-		C5AA2ADF1E6E0C7B0028362D /* RemoteSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AA2ADD1E6E0C7B0028362D /* RemoteSignal.h */; };
 		C5AA2AE41E6E0C810028362D /* CoreProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AE01E6E0C810028362D /* CoreProtocols.swift */; };
 		C5AA2AE51E6E0C810028362D /* RetainedSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AE11E6E0C810028362D /* RetainedSignal.swift */; };
 		C5AA2AE61E6E0C810028362D /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AE21E6E0C810028362D /* Signal.swift */; };
 		C5AA2AE71E6E0C810028362D /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA2AE31E6E0C810028362D /* Variable.swift */; };
+		C5AA2AE81E6E1AED0028362D /* RemoteSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AA2ADD1E6E0C7B0028362D /* RemoteSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,7 +81,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AA2ADF1E6E0C7B0028362D /* RemoteSignal.h in Headers */,
+				C5AA2AE81E6E1AED0028362D /* RemoteSignal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AA2ADE1E6E0C7B0028362D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +279,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RemoteSignal/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jordanebelanger.--PROJECT-NAME--";
@@ -302,7 +300,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RemoteSignal/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jordanebelanger.--PROJECT-NAME--";
