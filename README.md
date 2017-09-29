@@ -34,7 +34,7 @@ $ pod install
 To integrate RemoteSignal into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "tehjord/RemoteSignal" ~> 1.0
+github "jordanebelanger/RemoteSignal" ~> 1.0
 ```
 
 Run `carthage update` to build the framework and drag the built `RemoteSignal.framework` into your Xcode project.
